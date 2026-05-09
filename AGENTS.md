@@ -1,6 +1,6 @@
 # Pixora Gallery — AGENTS.md
 
-This file defines how all AI coding agents must behave while working on the Pixora Gallery project.
+This file defines the complete behavior, development standards, UI/UX philosophy, architecture rules, animation systems, AI systems, branding systems, and engineering quality rules for all AI coding agents working on Pixora Gallery.
 
 Applies to:
 - Jules
@@ -9,220 +9,242 @@ Applies to:
 - Copilot
 - OpenAI Codex
 - Claude Code
-- Any autonomous coding system
+- autonomous coding systems
+- AI development agents
 
-The goal is to maintain:
-- premium quality
-- scalable architecture
-- futuristic UX
-- smooth performance
-- flagship-level Android standards
+The mission is to create:
+"A futuristic billion-dollar AI-powered Android media ecosystem."
 
 ---
 
-# CORE MISSION
+# CORE PRODUCT VISION
 
-Pixora is NOT a basic gallery app.
+Pixora is NOT a normal gallery app.
 
 Pixora is:
 - AI-powered media ecosystem
-- premium Android experience
-- futuristic media platform
-- cinematic gallery system
+- futuristic Android experience
+- cinematic media platform
+- intelligent editing studio
 - advanced playback engine
-- AI editing studio
+- flagship-level creative system
 
-Every implementation decision must support:
-- premium UX
-- fluidity
-- intelligence
-- scalability
-- visual polish
+The app must combine:
+- Google Photos intelligence
+- Samsung Gallery smoothness
+- VLC playback power
+- Lightroom editing quality
+- CapCut creative tools
+- Nothing OS futuristic design
+- iOS Liquid Glass depth system
 
-Never build generic Android UI.
+Everything must feel:
+- premium
+- cinematic
+- fluid
+- intelligent
+- futuristic
+- luxurious
+
+Never create generic Android UI.
 
 ---
 
-# DEVELOPMENT PRIORITIES
+# PRIMARY DEVELOPMENT PRIORITIES
 
 Priority order:
 
-1. Smooth UX
+1. UX smoothness
 2. Premium UI quality
 3. Stability
 4. Performance
-5. Animation quality
+5. Animation polish
 6. Scalability
 7. AI integration
-8. Feature expansion
+8. Future extensibility
 
-Never sacrifice UI smoothness for unnecessary complexity.
+Never sacrifice smoothness for unnecessary complexity.
 
 ---
 
-# UI/UX RULES
+# UI/UX PHILOSOPHY
 
-The app must feel:
+The interface must feel:
 - cinematic
-- premium
+- spatial
+- immersive
 - futuristic
-- fluid
 - flagship-grade
 
-Never use:
-- outdated Material layouts
-- cheap card designs
-- flat boring UI
-- old Android visual patterns
-- generic Compose templates
-
 Use:
-- depth
-- blur
-- motion
+- glassmorphism
 - adaptive transparency
-- layered UI
-- dynamic color systems
-- smooth transitions
+- layered depth
+- dynamic blur
 - floating surfaces
+- responsive lighting
+- cinematic transitions
+- fluid motion systems
 
-UI inspirations:
+Inspirations:
 - iOS 26 Liquid Glass
 - Google Photos
-- Samsung Gallery
+- Samsung OneUI
 - Nothing OS
 - Fluent Design
 - modern VLC concepts
+- Arc Browser
+
+Never use:
+- boring flat layouts
+- generic Compose templates
+- cheap Material cards
+- outdated Android visuals
+- stiff transitions
+
+The app should feel alive.
 
 ---
 
-# ANIMATION RULES
+# ANIMATION SYSTEM RULES
 
-Animations are EXTREMELY important.
+Animations are critical.
 
-Every interaction should feel:
-- alive
-- reactive
-- polished
-- physically responsive
+Every interaction must feel:
+- responsive
+- physical
+- elegant
+- fluid
 
 Use:
 - spring animations
 - physics-based scrolling
 - shared element transitions
 - blur transitions
-- dynamic opacity
 - layered motion
-- predictive animations
+- dynamic opacity
+- depth animation
+- predictive transitions
 
-Avoid:
-- janky animations
-- instant UI jumps
-- abrupt transitions
+Scrolling must feel buttery smooth.
+
+No:
+- janky scrolling
 - laggy recompositions
+- instant screen jumps
+- harsh transitions
 
 Target:
 - 60fps minimum
 - 120fps optimized
 
-All scrolling should feel buttery smooth.
+Every screen transition should feel cinematic.
 
 ---
 
-# COMPOSE RULES
+# COMPOSE DEVELOPMENT RULES
 
 - Use Jetpack Compose only
 - Never use XML layouts
 - Avoid deeply nested composables
 - Minimize recompositions
-- Use stable state management
-- Use reusable components
+- Build reusable UI systems
 - Use scalable design systems
 - Use adaptive layouts
 
 Create:
 - reusable UI primitives
-- scalable theming system
-- centralized spacing system
 - typography engine
 - motion engine
+- dynamic theme engine
+- spacing token system
+
+The architecture must support future scaling.
 
 ---
 
 # FONT ENGINE RULES
 
-Create advanced dynamic typography engine.
+Build advanced dynamic typography engine.
 
 Requirements:
-- instant app-wide font switching
+- app-wide instant font switching
 - no restart required
-- all screens update dynamically
-- subtitles use selected font
-- editor uses selected font
-- player UI uses selected font
+- dynamic font updates
+- live font previews
+- subtitle font integration
+- editor font integration
+- player UI font integration
 
 Default:
-- Android system font
+- Android system default font
 
-Add:
+Add at least:
 - Inter
 - Poppins
 - Manrope
 - Product Sans style alternative
 - SF Pro style alternative
 
-Add:
-- live preview
-- weight controls
-- typography scaling
-
 Typography should feel:
 - elegant
+- clean
+- futuristic
 - readable
-- premium
+
+Support:
+- font weight control
+- typography scaling
+- accessibility scaling
 
 ---
 
 # SETTINGS SYSTEM RULES
 
-Settings system must be massive and modular.
+Create one of the most advanced settings systems ever made for a gallery app.
 
-Do NOT create basic settings pages.
+The settings system must feel:
+- futuristic
+- premium
+- intelligent
+- modular
 
-Create:
+Do NOT create basic settings screens.
+
+Use:
 - categorized sections
-- expandable cards
+- animated cards
+- expandable settings
+- blur surfaces
 - searchable settings
-- animated setting transitions
-- premium settings UI
+- dynamic previews
 
 Include:
-- animation settings
-- blur settings
+- animation controls
+- blur controls
 - motion engine settings
+- typography settings
 - AI provider settings
 - API management
-- subtitle engine settings
-- playback settings
+- player settings
+- subtitle settings
 - decoder settings
-- cache settings
+- cache controls
 - privacy settings
 - backup settings
-- developer settings
+- sync settings
+- developer options
 - experimental features
 - accessibility settings
 - Android TV settings
 
-Settings must feel:
-- futuristic
-- intelligent
-- professional
+The settings UI should feel flagship-level.
 
 ---
 
 # VIDEO PLAYER RULES
 
-Use hybrid architecture:
+Use hybrid playback architecture:
 - ExoPlayer
 - LibVLC
 
@@ -230,88 +252,97 @@ Reason:
 - ExoPlayer = Android-native optimization
 - VLC = advanced codec compatibility
 
-Never use VLC default UI.
+Never use default VLC UI.
 
-Build fully custom modern player UI.
+Build fully custom premium video player UI.
 
-Player must feel:
-- cinematic
-- immersive
-- smooth
-- premium
+Player inspiration:
+- Netflix
+- VLC modern concepts
+- Samsung Video Player
+- YouTube ambient mode
+- Apple TV player
 
 Features required:
-- gestures
-- subtitle system
+- gesture controls
+- subtitle engine
 - AI subtitle generation
-- HDR support
+- AI subtitle translation
 - playback speed
 - frame stepping
-- floating mode
-- PiP
-- decoder controls
-- ambient glow system
+- floating playback
+- PiP mode
+- decoder switching
+- HDR tone mapping
+- ambient glow effects
+- cinematic playback controls
 
-Playback must support:
+Supported protocols:
 - HLS
 - DASH
 - SMB
 - FTP
-- WebDAV
 - DLNA
-- IPTV
+- WebDAV
 - RTSP
+- IPTV
+
+Player must feel:
+- cinematic
+- immersive
+- luxurious
 
 ---
 
 # AI SYSTEM RULES
 
-AI architecture must be modular.
+The AI architecture must be modular.
 
 Support:
 - Gemini API
 - OpenAI API
+- Claude-compatible APIs
 - OpenRouter
 - Ollama
 - LM Studio
 - custom base URLs
 
 Users must be able to:
-- switch providers
-- add API keys
+- add custom API keys
+- switch AI providers
+- choose models dynamically
 - customize endpoints
-- select models dynamically
 
 Do NOT hardcode providers.
 
 ---
 
-# AI EDITING LOGIC
+# AI EDITING ENGINE RULES
 
-The AI must interact with actual editing pipelines.
+The AI must interact with real editing systems.
 
 Bad:
-- fake prompt-based effects
+- fake prompt effects
 
-Good:
+Correct workflow:
 1. analyze media
 2. understand request
-3. map request to tools
+3. map request to editing tools
 4. execute workflow
 5. render result
 
 Example:
 "make cinematic"
 
-The system should:
-- detect lighting
-- adjust contrast
-- apply LUT
+System should:
+- analyze lighting
 - enhance shadows
+- improve highlights
+- apply cinematic LUT
 - sharpen intelligently
-- create cinematic grading
+- create depth grading
 
-AI must feel intelligent.
+The AI must feel intelligent and real.
 
 ---
 
@@ -322,48 +353,55 @@ Editor quality target:
 - Snapseed
 - Photoshop Mobile
 
-Required:
+Requirements:
 - non-destructive editing
 - layer system
 - undo/redo stack
 - GPU acceleration
-- smooth preview rendering
+- smooth previews
 
 Features:
 - curves
 - HSL
-- LUT
-- blur
-- sharpen
+- LUT support
 - AI erase
-- healing
-- clone
+- AI relight
+- clone tool
+- healing tool
+- blur tools
+- sharpen tools
 - perspective correction
-- retouching
 - overlays
+- text tools
+- watermark tools
+- retouching
 
-Editor UI must feel:
+Editor UI should feel:
 - clean
-- premium
+- professional
 - tool-focused
+- premium
 
 ---
 
 # VIDEO EDITOR RULES
 
-Video editor should NOT feel basic.
+The integrated video editor must feel modern.
 
 Features:
-- timeline editor
+- timeline editing
 - trimming
 - transitions
-- captions
-- audio editing
 - LUT support
 - AI transitions
 - AI subtitles
-- export presets
+- captions
+- audio editing
 - cinematic rendering
+- export presets
+- speed control
+- background blur
+- thumbnail editor
 
 Timeline should feel:
 - smooth
@@ -379,57 +417,56 @@ Performance is critical.
 Always optimize:
 - memory usage
 - image decoding
-- thumbnail caching
-- scrolling
+- thumbnail rendering
 - recompositions
-- background tasks
+- scrolling
+- background processing
 
 Use:
 - lazy loading
-- efficient paging
+- caching
 - hardware acceleration
 - coroutine optimization
-- thumbnail preloading
+- predictive loading
+- thumbnail prefetching
 
 Avoid:
 - blocking main thread
 - large bitmap allocations
-- unnecessary recompositions
 - memory leaks
+- unoptimized rendering
+
+Media loading should feel instant.
 
 ---
 
-# MEDIA LOADING RULES
-
-Media loading must feel instant.
-
-Use:
-- predictive loading
-- thumbnail caching
-- prefetching
-- smart memory management
+# MEDIA SUPPORT RULES
 
 Support:
 - RAW
 - HEIF
 - HEVC
+- HDR
 - Ultra HDR
 - motion photos
 
+The app must handle large media libraries smoothly.
+
 ---
 
-# SECURITY RULES
+# SECURITY & PRIVACY RULES
 
 Implement:
 - encrypted vault
-- biometric authentication
-- secure hidden albums
-- local-first privacy
+- biometric lock
+- hidden albums
+- secure export
 - offline AI support
+- local-first privacy
 
 Never force cloud sync.
 
-Privacy-first design is mandatory.
+Privacy-first architecture is mandatory.
 
 ---
 
@@ -437,15 +474,15 @@ Privacy-first design is mandatory.
 
 Support:
 - D-pad navigation
-- remote gestures
-- mouse mode
 - TV layouts
-- TV playback mode
+- remote controls
+- mouse mode
+- TV player mode
 
-TV UI should feel:
-- optimized
+TV experience must feel:
+- responsive
 - readable
-- smooth
+- premium
 
 ---
 
@@ -474,7 +511,7 @@ feature-ai/
 feature-tv/
 app/
 
-Never create monolithic architecture.
+Never build monolithic architecture.
 
 ---
 
@@ -484,8 +521,8 @@ Code must be:
 - production-grade
 - modular
 - scalable
-- readable
 - maintainable
+- readable
 
 Avoid:
 - spaghetti code
@@ -495,15 +532,173 @@ Avoid:
 
 Use:
 - constants
-- theme tokens
 - reusable systems
+- theme tokens
 - abstraction layers
+
+---
+
+# APP LOGO & BRANDING RULES
+
+Create a world-class premium logo system for Pixora Gallery.
+
+Do NOT use:
+- generic gallery icons
+- cheap gradients
+- basic camera icons
+- copied branding
+
+The logo must feel:
+- futuristic
+- cinematic
+- intelligent
+- premium
+- iconic
+
+Logo inspiration:
+- Nothing
+- Apple
+- Arc Browser
+- Linear
+- DeepMind
+- futuristic AI brands
+
+---
+
+# LOGO CONCEPT SYSTEM
+
+The logo should combine ideas of:
+- media
+- AI
+- light
+- pixels
+- cinematic depth
+- futuristic intelligence
+
+Possible concepts:
+- glowing prism
+- liquid glass orb
+- dynamic pixel core
+- AI media crystal
+- futuristic light ring
+
+The logo should feel alive.
+
+---
+
+# LOGO STYLE RULES
+
+Use:
+- glassmorphism
+- adaptive gradients
+- dynamic glow
+- layered transparency
+- smooth geometry
+- futuristic lighting
+
+Avoid:
+- flat vectors
+- cheap clipart style
+- random gradients
+- outdated icon styles
+
+---
+
+# APP ICON RULES
+
+Create:
+- adaptive Android icon
+- monochrome icon
+- themed icon support
+- Android 13+ themed compatibility
+
+The icon must:
+- look premium in dark mode
+- look premium in light mode
+- scale perfectly
+- remain recognizable at small sizes
+
+---
+
+# ANIMATED LOGO RULES
+
+Create animated logo system for:
+- splash screen
+- loading animations
+- startup transitions
+
+Animation style:
+- cinematic
+- glowing
+- fluid
+- futuristic
+
+Use:
+- blur animation
+- light pulses
+- smooth scaling
+- depth motion
+- liquid transitions
+
+The splash experience should feel flagship-level.
+
+---
+
+# CODE-BASED LOGO GENERATION RULES
+
+Generate logo using:
+- Jetpack Compose Canvas
+- vector rendering
+- SVG systems
+- procedural drawing code
+
+Do NOT rely only on static PNG assets.
+
+The logo should be drawable fully with code.
+
+---
+
+# DYNAMIC BRANDING SYSTEM
+
+Add support for:
+- animated gradients
+- adaptive themes
+- dynamic glow
+- responsive colors
+- seasonal themes
+- AI-generated variants
+
+Branding should evolve dynamically.
+
+---
+
+# COLOR SYSTEM RULES
+
+Create premium futuristic color palette.
+
+Suggested tones:
+- deep black
+- liquid blue
+- cinematic cyan
+- neon purple
+- adaptive gradients
+
+Colors must feel:
+- premium
+- luxurious
+- futuristic
+- AI-focused
+
+Avoid:
+- childish neon spam
+- random saturated colors
+- outdated material palettes
 
 ---
 
 # GITHUB ACTIONS RULES
 
-Always maintain working CI/CD.
+Always maintain fully working CI/CD.
 
 Requirements:
 - debug APK builds
@@ -522,37 +717,40 @@ Use:
 - Gradle caching
 - Java 21
 - workflow_dispatch
-- parallel optimization
+- optimized builds
+- parallel execution
 
-Workflow must:
+Workflow should:
 - retry Gradle downloads
-- reduce build times
+- reduce build time
 - upload artifacts cleanly
 
 ---
 
-# DESIGN QUALITY CHECKLIST
+# QUALITY VALIDATION CHECKLIST
 
-Before finalizing UI:
-- Does it feel premium?
-- Does it feel smooth?
-- Does it feel futuristic?
-- Does it feel cinematic?
-- Does it feel flagship-grade?
-- Does it avoid generic Android design?
-- Does it feel visually alive?
+Before finalizing anything ask:
+
+Does this feel:
+- premium?
+- cinematic?
+- smooth?
+- futuristic?
+- intelligent?
+- flagship-grade?
+- visually alive?
 
 If NOT:
-Refactor the UI.
+Refactor the implementation.
 
 ---
 
 # FINAL PRODUCT TARGET
 
 Pixora should feel like:
-"A billion-dollar futuristic AI-powered Android media ecosystem."
+"A futuristic billion-dollar AI-powered Android media ecosystem built by a world-class design and engineering team."
 
-The app should compete visually and technically with:
+The app must compete with:
 - Google Photos
 - Samsung Gallery
 - Lightroom
@@ -560,10 +758,10 @@ The app should compete visually and technically with:
 - CapCut
 
 Everything must feel:
-- premium
+- luxurious
 - polished
-- cinematic
 - intelligent
+- cinematic
 - futuristic
 - world-class
 
